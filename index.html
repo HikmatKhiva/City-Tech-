@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tech Coding School</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+    <!-- Header Start -->
+    <div class="for-color">
+        <div class="container">
+            <header class="main-header">
+                <div class="main-header__logo">
+                    <h3 class="logo__title">
+                        <a href="#" class="header-logo__link">
+                            <b class="logo-color">City Tech </b> Coding School
+                        </a>
+                    </h3>
+                </div>
+                <!-- Here navbar  -->
+                <nav class="main-navigation">
+                    <ul class="navigation-items">
+                        <li class="navigation-item">
+                            <a href="index.html" class="navigation-link active">Home</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="html/about.html" class="navigation-link ">About</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="html/services.html" class="navigation-link">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Here navbar  End -->
+            </header>
+        </div>
+    </div>
+
+    <!-- Section Img Start  -->
+    <section class="img-section">
+        <div class="img-section__title">
+            <h2 class="section-title">
+                USA Starndarts In Uzbekistan
+            </h2>
+            <p class="section_pragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minima sit corrupti unde deleniti assumenda repellat aliquam placeat doloremque dolores.
+            </p>
+        </div>
+    </section>
+    <!-- Section Img End  -->
+
+    <!-- Section Navigation Start -->
+    <section class="navigation">
+
+        <h3 class="section-navigation__logo">
+            Subscribe To our newsletter 
+        </h3>
+
+        <form class="section-navigation__form">
+            <input type="text" placeholder="Search" id="input_id">
+            <button class="navigation-form__btn" onclick="Myfun()">Search</button>
+        </form>
+
+    </section>
+    <!-- Section Navigation End -->
+
+    <!-- Section Info  Start-->
+    <div class="container">
+        <section class="info">
+            <div class="info-part">
+                <img src="../img/icons8-angularjs (1).svg" alt="Angularjs">
+
+                <h3 class="info-title">
+                    Study Angular
+                </h3>
+
+                <p class="info-pragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laborum unde porro inventore. Fugiat reprehenderit facere nisi aliquam consectetur repellat?
+                </p>
+            </div>
+            <div class="info-part">
+                <img src="../img/icons8-node-js.svg" alt="Nodejs">
+
+                <h3 class="info-title">
+                    Node JS
+                </h3>
+
+                <p class="info-pragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laborum unde porro inventore. Fugiat reprehenderit facere nisi aliquam consectetur repellat?
+                </p>
+            </div>
+
+            <div class="info-part">
+                <img src="../img/icons8-react-native.svg" alt="Reactjs">
+                <h3 class="info-title">
+                    React JS
+                </h3>
+                <p class="info-pragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laborum unde porro inventore. Fugiat reprehenderit facere nisi aliquam consectetur repellat?
+                </p>
+            </div>
+        </section>
+    </div>
+    <!-- Section Info  End-->
+
+    <!-- Footer Start  -->
+    <footer class="footer">
+        <h4 class="footer-title">
+            City Tech Cooding School &copy; 2020
+        </h4>
+    </footer>
+    <!-- Footer End  -->
+
+    <!-- Script Start  -->
+    <script type="text/javascript">
+        function Myfun() {
+            let input = document.getElementById("input_id")
+            let input_value = input.value
+            alert(input_value)
+        }
+    </script>
+    <!-- Script End  -->
+
+</body>
+</html>
